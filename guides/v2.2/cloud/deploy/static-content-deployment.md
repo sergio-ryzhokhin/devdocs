@@ -1,0 +1,1 @@
+../../../v.2.1/cloud/deploy/static-content-deployment.md
