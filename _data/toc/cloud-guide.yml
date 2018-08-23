@@ -196,10 +196,6 @@ pages:
               url: /cloud/env/log-handlers.html
               versions: ["2.1","2.2","2.3"]
 
-            - label: Smart wizards
-              url: /cloud/env/smart-wizards.html
-              versions: ["2.1","2.2","2.3"]
-
         - label: Environment variables
           url: /cloud/env/variables-intro.html
           children:
@@ -310,6 +306,16 @@ pages:
 
         - label: Test deployment
           url: /cloud/live/stage-prod-test.html
+
+    - label: Optimize your cloud
+      url:
+      versions: ["2.1","2.2","2.3"]
+      children:
+        - label: SCD strategies
+          url: /cloud/deploy/static-content-deployment.html
+
+        - label: Smart wizards
+          url: /cloud/env/smart-wizards.html
 
     - label: Go live and launch
       url: /cloud/live/live.html
