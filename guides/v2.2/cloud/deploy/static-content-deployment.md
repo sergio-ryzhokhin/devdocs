@@ -1,1 +1,1 @@
-../../../v.2.1/cloud/deploy/static-content-deployment.md
+../../../v2.2/cloud/deploy/static-content-deployment.md
