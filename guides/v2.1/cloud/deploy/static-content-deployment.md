@@ -11,10 +11,10 @@ Static content deployment (SCD) has a great impact on the store deployment proce
 -  SCD on build
 -  SCD on demand
 -  SCD on deploy (_default_)
--  Ideal state
+-  Skip SCD
 
-The {{site.data.var.ct}} package contains the `config:dump` command that reads locales and saves them in the `app/etc.config.php` file.
-
+<!-- The {{site.data.var.ct}} package contains the `config:dump` command that reads locales and saves them in the `app/etc.config.php` file.
+-->
 
 ## SCD on build
 
@@ -28,5 +28,7 @@ Generating SCD on the deploy phase is the default configuration.
 
 Generating SCD on demand is optimal for a development workflow. It decreases deployment time so that you can quickly review your implementations and run integration tests. 
 
+## Skip SCD
 
+Skipping the SCD is another option for an optimal development workflow.
 
